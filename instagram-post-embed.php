@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Instagram Post embed
- * Plugin URI:  https://example.com/wp-maker-block
+ * Plugin URI:  https://github.com/Rajan1308/instagram-post-embed
  * Description: Instagram Post Embed plugin is a useful tool that allows users to easily embed Instagram posts into their WordPress website.
  * Version:     1.0
  * Author:      Rajan Gupta
- * Author URI:  https://example.com
+ * Author URI:  https://github.com/Rajan1308/
  * License:     GPL2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: wp-ipe
