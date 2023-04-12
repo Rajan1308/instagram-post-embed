@@ -21,12 +21,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 function instagram_post_embed_block_init() {
   wp_register_script(
     'instagram-block',
-    plugins_url( 'block.js', __FILE__ ),
+    plugins_url( 'insta-block.js', __FILE__ ),
 	array( 'wp-blocks', 'wp-components', 'wp-element', 'wp-i18n', 'wp-editor' ),
-    filemtime( plugin_dir_path( __FILE__ ) . 'block.js' )
+    filemtime( plugin_dir_path( __FILE__ ) . 'insta-block.js' )
   );
 
-  register_block_type( 'my-plugin/instagram-block', array(
+  register_block_type( 'instagram-post-embed/instagram-block', array(
     'editor_script' => 'instagram-block',
   ) );
 }
